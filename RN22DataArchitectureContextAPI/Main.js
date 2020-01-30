@@ -61,7 +61,7 @@ class First extends Component{
 
                 {/* 손자컴포넌트 -데이터 전달 없음*/}
                 <Second></Second>
-
+                
                 {/* 별로의 js문서의 컴포넌트 사용- 데이터 전달X */}
                 <Second2></Second2>
             </View>
