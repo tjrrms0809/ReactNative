@@ -29,7 +29,7 @@ export default class Main extends Component{
 
                 <Card>
                     <CardItem>
-                        <Thumbnail source={{url:{https://i.ytimg.com/vi/wCSz1ApV9-k/maxresdefault.jpg}}></Thumbnail>
+                        <Thumbnail source={{uri:'https://i.ytimg.com/vi/wCSz1ApV9-k/maxresdefault.jpg'}}></Thumbnail>
                         <Text>Native base</Text>
                     </CardItem>
                     <CardItem button onPress={()=>alert('click')}>
