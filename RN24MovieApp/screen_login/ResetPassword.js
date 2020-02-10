@@ -55,7 +55,6 @@ export default class ResetPassword extends Component{
                     <View style={{width:'100%', margin:16}}>
                         <Button title="다음" onPress={ ()=>Alert.alert('임시비밀번호가 발송되었습니다.', '로그인 후 정보수정을 통해 안전한 비밀번호로 변경해 주시기 바랍니다.') }></Button>
                     </View>
-
                 </View>
 
                 {/* 2. footer 영역 */}
@@ -67,11 +66,10 @@ export default class ResetPassword extends Component{
         );
     }
 
-    // 네비게이터 옵션 [static은 새로고침으로 반영되지 않음. 반드시 re-run해야함]
+    //네비게이터 옵션 [static은 새로고침으로 반영되지 않음. 반드시 re-run해야함]
     static navigationOptions={
-        headerShown: false, // 헤더영역 없애기
-    }
-    
+        headerShown: false,  //헤더영역 없애기
+    };
 }
 
 const style= StyleSheet.create({
